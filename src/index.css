@@ -1,54 +1,61 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px;
+  font-size: 15px;
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
   zoom: auto;
 }
 
 /* Main */
 main {
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 /* Buttons */
-a.button-color-1, button.button-color-1 {
+a.button-color-1,
+button.button-color-1 {
   background-color: transparent;
   border: 2px solid #0466c8;
   color: #0466c8;
   border-radius: 25px;
   transition: all 0.3s;
 }
-a.button-color-1:hover, button.button-color-1:hover {
+a.button-color-1:hover,
+button.button-color-1:hover {
   background-color: #0466c8;
   border: 2px solid #0466c8;
   color: #fff;
   transition: all 0.3s;
 }
 
-a.button-color-2, button.button-color-2 {
+a.button-color-2,
+button.button-color-2 {
   background-color: #0466c8;
   border: 2px solid #0466c8;
   color: #fff;
   border-radius: 25px;
   transition: all 0.3s;
 }
-a.button-color-2:hover, button.button-color-2:hover {
+a.button-color-2:hover,
+button.button-color-2:hover {
   background-color: transparent;
   border: 2px solid #0466c8;
   color: #0466c8;
   transition: all 0.3s;
 }
+li a.card-link {
+  font-size: 13px;
+}
 li a.card-link:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
 /* Section */
@@ -139,7 +146,7 @@ div.map-card {
 /* Media Queries */
 @media (max-width: 767px) {
   body {
-    zoom: 90%;
+    /* zoom: 90%; */
   }
   img.testimonials-img {
     height: 50%;
@@ -161,7 +168,7 @@ div.map-card {
     display: none;
     position: absolute;
     width: 100%;
-    padding: 50px 0px;
+    padding: 25px 0px;
     bottom: 17%;
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -169,4 +176,15 @@ div.map-card {
     height: 50px;
     width: auto;
   }
+}
+
+input.input-group-text {
+  padding: 10px 20px;
+  border-radius: 25px 0 0 25px !important;
+  outline: none;
+}
+.input-group-append button {
+  padding: 10px 20px;
+  border-top-right-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
 }
