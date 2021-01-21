@@ -25,7 +25,7 @@ div#preloader-div {
   background-color: #fff;
   position: fixed;
   overflow: hidden;
-  z-index: 10;
+  z-index: 20;
 }
 div#preloader {
   border: 16px solid #fff;
@@ -57,7 +57,6 @@ button.button-color-1:hover {
   color: #fff;
   transition: all 0.3s;
 }
-
 a.button-color-2,
 button.button-color-2 {
   background-color: #0466c8;
@@ -80,6 +79,10 @@ li a.card-link:hover {
   color: #fff;
 }
 
+/* Navbar */ 
+nav.navbar {
+  z-index: 15;
+}
 /* Section */
 section {
   height: auto;
@@ -173,10 +176,6 @@ div.map-card {
   img.img-1 {
     height: 350px;
     width: auto;
-    position: relative;
-    top: 10%;
-    left: 9%;
-    transform: translate(-50%,-50%);
   }
   img.testimonials-img {
     height: 50%;
@@ -198,12 +197,12 @@ div.map-card {
     display: none;
     position: absolute;
     width: 100%;
-    padding: 25px 0px;
+    padding: 30px 0px;
     bottom: 17%;
     background-color: rgba(255, 255, 255, 0.7);
   }
   div.team-social-media img {
-    height: 30px;
+    height: 35px;
     width: auto;
   }
 }
