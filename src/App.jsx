@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import "./colors.css";
 import SectionHome from "./SectionHome";

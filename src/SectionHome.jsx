@@ -22,7 +22,7 @@ function SectionHome() {
 						<br/>
 						<br/>
 						<br/>
-						<h1 className="display-4 text-color-02 mt-lg-5 mt-md-3 mt-sm-0 mx-2 px-lg-0 px-md-3 px-sm-5"><b>Better Solution for Your Business</b> </h1>
+						<h1 className="display-4 text-color-02 mt-lg-5 mt-md-3 mt-sm-0 mx-2 px-lg-0 px-md-3 px-sm-5">Better Solution for Your Business</h1>
 						<h5 className="text-color-01 mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
 						<p className="text-color-03 mx-2"> 
 							Mollitia voluptates excepturi possimus cupiditate aperiam accusamus, 

@@ -33,7 +33,7 @@ function SectionContact() {
                                 <div className="card-body">
                                     <img src="images/icons/mail.svg" alt="mail-img" className="d-inline-block m-2"/>
                                     <h5><a href="mailto:labhansh25@outlook.in" className="card-link text-color-02 mx-1">Mail : labhansh25@outlook.in</a></h5>
-                                    <p className="text-color-01">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <p className="text-color-02">Lorem ipsum dolor sit amet consectetur elit. </p>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function SectionContact() {
                                 <div className="card-body">
                                     <img src="images/icons/phone.svg" alt="phone-img" className="d-inline-block m-2"/>
                                     <h5><a href="tel: 0000000000" className="card-link text-color-02 mx-1">Phone : 00000-00000</a></h5>
-                                    <p className="text-color-01">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <p className="text-color-02">Lorem ipsum dolor sit amet consectetur elit. </p>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function SectionContact() {
                                 <div className="card-body">
                                     <img src="images/icons/location.svg" alt="location-img" className="d-inline-block m-2"/>
                                     <h5><a href="#" className="card-link text-color-02 mx-1">Location : India</a></h5>
-                                    <p className="text-color-01">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <p className="text-color-02">Lorem ipsum dolor sit amet consectetur elit. </p>
                                 </div>
                             </div>
                         </div>

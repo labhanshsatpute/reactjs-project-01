@@ -2,7 +2,6 @@
   font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px;
-  font-size: 15px;
   scroll-behavior: smooth;
 }
 body {
@@ -51,11 +50,10 @@ button.button-color-2:hover {
   transition: all 0.3s;
 }
 li a.card-link {
-  font-size: 13px;
+  font-size: 15px;
 }
 li a.card-link:hover {
   color: #fff;
-  text-decoration: underline;
 }
 
 /* Section */
@@ -146,7 +144,7 @@ div.map-card {
 /* Media Queries */
 @media (max-width: 767px) {
   body {
-    /* zoom: 90%; */
+    zoom: 90%;
   }
   img.testimonials-img {
     height: 50%;
@@ -176,15 +174,4 @@ div.map-card {
     height: 50px;
     width: auto;
   }
-}
-
-input.input-group-text {
-  padding: 10px 20px;
-  border-radius: 25px 0 0 25px !important;
-  outline: none;
-}
-.input-group-append button {
-  padding: 10px 20px;
-  border-top-right-radius: 25px !important;
-  border-bottom-right-radius: 25px !important;
 }
