@@ -17,6 +17,30 @@ main {
   overflow-x: hidden;
 }
 
+/* Preloader */
+div#preloader-div {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+}
+div#preloader {
+  border: 16px solid #fff;
+  border-top: 16px solid #001845;
+  border-bottom: 16px solid #001845;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 /* Buttons */
 a.button-color-1,
 button.button-color-1 {
@@ -146,12 +170,20 @@ div.map-card {
   * {
     font-size: 0.9rem;
   }
+  img.img-1 {
+    height: 350px;
+    width: auto;
+    position: relative;
+    top: 10%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+  }
   img.testimonials-img {
     height: 50%;
     width: 50%;
   }
   div.testimonials-card {
-    margin-top: 25%;
+    margin-top: 20%;
     width: 90%;
   }
   hr.sectiontitle-hr {
@@ -171,7 +203,7 @@ div.map-card {
     background-color: rgba(255, 255, 255, 0.7);
   }
   div.team-social-media img {
-    height: 40px;
+    height: 30px;
     width: auto;
   }
 }

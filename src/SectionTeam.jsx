@@ -11,7 +11,7 @@ function SectionTeam() {
                     <br/>
                     <SectionTitle SectionName="Team"/>
                     <br/>
-                    <div className="container-fluid" align="center">
+                    <div className="container-fluid" align="center" data-aos="fade-up">
                         <h4 className="text-color-02">Meet our Team</h4>
                         <p className="text-color-02">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br/> Quaerat molestiae sint dolores fugit? Officia necessitatibus cum sint sapiente, magni, odit consequuntur.</p>
                         <hr className="w-75"/>

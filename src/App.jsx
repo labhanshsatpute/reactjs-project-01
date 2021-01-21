@@ -10,8 +10,14 @@ import SectionPortfolio from "./SectionPortfolio";
 import SectionTeam from "./SectionTeam";
 import SectionContact from "./SectionContact";
 import Footer from "./Footer";
+import Preloader from './components/Preloader';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import $ from 'jquery';
+
+$(document).ready(function(){
+  $('#preloader-div').hide();
+});
 
 function App() {
   AOS.init({
@@ -19,16 +25,17 @@ function App() {
   });
   return (
     <React.Fragment>
-      <Navbar />
+      <Preloader/>
+      <Navbar/>
       <main>
-        <SectionHome />
-        <SectionAbout />
-        <SectionServices />
-        <SectionPortfolio />
-        <SectionTeam />
-        <SectionContact />
+        <SectionHome/>
+        <SectionAbout/>
+        <SectionServices/>
+        <SectionPortfolio/>
+        <SectionTeam/>
+        <SectionContact/>
       </main>
-      <Footer />
+      <Footer/>
     </React.Fragment>
   );
 }

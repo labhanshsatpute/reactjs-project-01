@@ -40,7 +40,7 @@ function SectionPortfolio() {
                         </div>
                     </div>
                     <br/>
-                    <div className="my-lg-5 my-md-3 my-sm-3 text-center">
+                    <div className="my-lg-5 my-md-3 my-sm-3 text-center" data-aos="fade-up">
                         <h4 className="text-color-02">Over 100+ Business Clients</h4>
                         <p className="text-color-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam magni fugit dolorum.</p>
                         <hr className="w-75 mx-auto"/>
@@ -57,7 +57,7 @@ function SectionPortfolio() {
                         <FeatureCard FeatureImg="images/icons/achivements.svg" FeatureTitle="10+ Achivements" AosDelay="300"/>
                     </div>
                     <br/>
-                    <div className="my-lg-5 my-md-3 my-sm-3 text-center">
+                    <div className="my-lg-5 my-md-3 my-sm-3 text-center" data-aos="fade-up">
                         <h4 className="text-color-02">Testimonials</h4>
                         <p className="text-color-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam magni fugit dolorum.</p>
                         <hr className="w-75 mx-auto"/>

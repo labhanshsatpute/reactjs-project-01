@@ -31,7 +31,7 @@ function SectionHome() {
 						<a href="#ContactSection" className="btn btn-lg button-color-1 d-lg-inline-block d-md-block d-sm-block m-2" data-aos="fade-up" data-aos-delay="100">Contact Now</a>
 					</div>
 					<div className="col-lg-6 col-md-12 col-sm-12">
-						<img src="images/img-1.png" alt="web-development" className="img-fluid p-lg-5 p-md-3 p-sm-3 img-1" data-aos="fade-left" data-aos-delay="500"/>
+						<img src="images/img-1.png" alt="web-development" className="img-fluid p-lg-5 p-md-3 p-sm-3 img-1" align="center" data-aos="zoom-in" data-aos-delay="500"/>
 					</div>
 				</div>
 			</div>
