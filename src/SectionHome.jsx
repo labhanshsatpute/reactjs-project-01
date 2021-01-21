@@ -22,16 +22,16 @@ function SectionHome() {
 						<br/>
 						<br/>
 						<br/>
-						<h1 className="display-4 text-color-02 mt-lg-5 mt-md-3 mt-sm-0 mx-2 px-lg-0 px-md-3 px-sm-5">Better Solution for Your Business</h1>
-						<h5 className="text-color-01 mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-						<p className="text-color-03 mx-2"> 
+						<h1 className="display-4 text-color-02 mt-lg-5 mt-md-3 mt-sm-0 mx-2 px-lg-0 px-md-3 px-sm-5 " data-aos="fade-up" data-aos-delay="300">Better Solution for Your Business</h1>
+						<h5 className="text-color-01 mx-2" data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+						<p className="text-color-03 mx-2" data-aos="fade-up" data-aos-delay="100"> 
 							Mollitia voluptates excepturi possimus cupiditate aperiam accusamus, 
 							corrupti eveniet sapiente.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<a href="#AboutSection" className="btn btn-lg button-color-2 d-lg-inline-block d-md-block d-sm-block m-2">Get Started</a>
-						<a href="#ContactSection" className="btn btn-lg button-color-1 d-lg-inline-block d-md-block d-sm-block m-2">Contact Now</a>
+						<a href="#AboutSection" className="btn btn-lg button-color-2 d-lg-inline-block d-md-block d-sm-block m-2" data-aos="fade-up" data-aos-delay="100">Get Started</a>
+						<a href="#ContactSection" className="btn btn-lg button-color-1 d-lg-inline-block d-md-block d-sm-block m-2" data-aos="fade-up" data-aos-delay="100">Contact Now</a>
 					</div>
 					<div className="col-lg-6 col-md-12 col-sm-12">
-						<img src="images/img-1.png" alt="web-development" className="img-fluid p-lg-5 p-md-3 p-sm-3 img-1"/>
+						<img src="images/img-1.png" alt="web-development" className="img-fluid p-lg-5 p-md-3 p-sm-3 img-1" data-aos="fade-left" data-aos-delay="500"/>
 					</div>
 				</div>
 			</div>

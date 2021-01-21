@@ -15,7 +15,7 @@ import "aos/dist/aos.css";
 
 function App() {
   AOS.init({
-    offset: 150,
+    offset: 100,
   });
   return (
     <React.Fragment>

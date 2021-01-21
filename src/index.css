@@ -143,9 +143,6 @@ div.map-card {
 
 /* Media Queries */
 @media (max-width: 767px) {
-  body {
-    zoom: 90%;
-  }
   img.testimonials-img {
     height: 50%;
     width: 50%;
@@ -171,7 +168,7 @@ div.map-card {
     background-color: rgba(255, 255, 255, 0.7);
   }
   div.team-social-media img {
-    height: 50px;
+    height: 40px;
     width: auto;
   }
 }
