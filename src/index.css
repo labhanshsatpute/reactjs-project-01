@@ -143,6 +143,9 @@ div.map-card {
 
 /* Media Queries */
 @media (max-width: 767px) {
+  * {
+    font-size: 0.9rem;
+  }
   img.testimonials-img {
     height: 50%;
     width: 50%;
