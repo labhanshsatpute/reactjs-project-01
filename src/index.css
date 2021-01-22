@@ -83,6 +83,10 @@ li a.card-link:hover {
 nav.navbar {
   z-index: 15;
 }
+button#navbar-toggler {
+  outline: none;
+}
+
 /* Section */
 section {
   height: auto;
