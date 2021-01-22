@@ -50,7 +50,7 @@ function ContactForm() {
             newPhoneWarning(" Please Enter Phone No. ");
         }
         else if (phone.length < 10 || phone.length > 10) {
-            newPhoneWarning(" Please enter a Valid Phone No. ");
+            newPhoneWarning(" Please Enter a Valid Phone No. ");
         }
         else {
             newPhoneWarning(" ");
@@ -60,8 +60,8 @@ function ContactForm() {
         if (message == "") {
             newMessageWarning(" Please Enter Something ");
         }
-        else if (message.length < 50) {
-            newMessageWarning(" Please Enter More Than 50 Characters ");
+        else if (message.length < 30) {
+            newMessageWarning(" Please Enter More Than 30 Characters ");
         }
         else {
             newMessageWarning(" ");
