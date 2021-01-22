@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 function App() {
   AOS.init({
-    offset: 100,
+    offset: 125
   });
   return (
     <React.Fragment>
