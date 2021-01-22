@@ -50,7 +50,7 @@ function ContactForm() {
             newPhoneWarning(" Please Enter Phone No. ");
         }
         else if (phone.length < 10 || phone.length > 10) {
-            newPhoneWarning(" Pnease enter a Valid Phone No. ");
+            newPhoneWarning(" Please enter a Valid Phone No. ");
         }
         else {
             newPhoneWarning(" ");
