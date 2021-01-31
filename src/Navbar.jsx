@@ -1,17 +1,31 @@
 import React from 'react';
 import $ from 'jquery';
 
-$(document).ready(function(){
-	$('#navbar-toggler').click(function(){
-		$('.navbar').addClass('shadow');
-		$('#navbar-list').toggle(300);
-	});
-	$('#navbar-toggler').blur(function(){
-		$('#navbar-list').hide(300);
-	});
-});
 
 function Navbar() {
+
+	const NavbarToggled =()=> {
+        if (document.querySelector('#navbar-list').style.display == "block") {
+
+            document.querySelector('#navbar-list').style.display = "none";
+
+            document.querySelector('#toggler-icon-line-2').style.display = 'block';
+            document.querySelector('#toggler-icon-line-1').style.transform = 'rotate(0deg)';
+            document.querySelector('#toggler-icon-line-1').style.marginTop = '0px';
+            document.querySelector('#toggler-icon-line-3').style.transform = 'rotate(0deg)';
+            document.querySelector('#toggler-icon-line-1').style.marginBottom = '0px';            
+        }
+        else {
+            document.querySelector('#navbar-list').style.display = "block";
+
+            document.querySelector('#toggler-icon-line-2').style.display = 'none';
+            document.querySelector('#toggler-icon-line-1').style.transform = 'rotate(45deg)';
+            document.querySelector('#toggler-icon-line-1').style.marginTop = '-9px';
+            document.querySelector('#toggler-icon-line-3').style.transform = 'rotate(-45deg)';
+            document.querySelector('#toggler-icon-line-1').style.marginBottom = '-9px';
+        }
+        
+    }
 
 	return(
 		<React.Fragment>
@@ -20,11 +34,13 @@ function Navbar() {
 
 					<a href="index.html" className="navbar-brand text-color-02">Example</a>
 
-					<button className="navbar-toggler ml-auto" id="navbar-toggler">
-						<img src="images/icons/menu.svg" alt="toggler-icon" id="navbar-toggler-icon"/>
-					</button>
+					<button className="navbar-toggler" onClick={NavbarToggled} id="navbar-toggler">
+                        <div className="toggler-icon-line" id="toggler-icon-line-1"></div>
+                        <div className="toggler-icon-line" id="toggler-icon-line-2"></div>
+                        <div className="toggler-icon-line" id="toggler-icon-line-3"></div>
+                    </button>
 					
-					<div className="collapse navbar-collapse ml-auto" id="navbar-list">
+					<div className="navbar-collapse ml-auto" id="navbar-list">
 						<ul className="navbar-nav ml-auto text-center">
 							<hr/>
 							<li className="nav-item px-2"><a href="#HomeSection" className="nav-link text-color-02">HOME</a></li>

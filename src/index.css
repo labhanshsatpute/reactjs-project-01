@@ -85,6 +85,20 @@ nav.navbar {
 }
 button#navbar-toggler {
   outline: none;
+  border: none;
+}
+div.toggler-icon-line {
+  border-radius: 3px;
+  transition: 0.3s ease;
+  margin: 7px 0px;
+  width: 35px;
+  height: 2px;
+  background-color: #000;
+  content: inherit;
+}
+div#navbar-list {
+  display: block;
+  transition: 0.5s ease;
 }
 
 /* Section */
@@ -208,5 +222,9 @@ div.map-card {
   div.team-social-media img {
     height: 35px;
     width: auto;
+  }
+  div#navbar-list {
+    transition: 0.5s ease;
+    display: none;
   }
 }
